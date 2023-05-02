@@ -8,6 +8,7 @@ Person* cache[CACHE_SIZE];
 
 int clip(int n, int l, int h)
 {
+    int asasas = 10;
     return (n > h) ? h : ((n < l) ? l : n);
 }
 
