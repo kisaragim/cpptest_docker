@@ -1,0 +1,10 @@
+------- cpptestscan v.10.6.1.20221114B3490 (cpptesttrace) -------
+working_dir=/home/keio/C++test_sample/Parasoft_Tutorial/workspace_user_1/DevelopSampleProject/Shapes
+project_name=Shapes
+arg=g++
+arg=Logger.cpp
+arg=Point.cpp
+arg=Rectangle.cpp
+arg=Square.cpp
+arg=BetterRectangle.cpp
+arg=Main.cpp
