@@ -41,11 +41,11 @@ jobs:
     - name: Run C++test_git
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
-      with:
+      #with:
         #installDir: 'C:\cpptest'
         #compilerConfig: 'gcc_7-64'
         #testConfig: 'builtin://MISRA C 2012'
-        reportFormat: xml,html,sarif
+        #reportFormat: xml,html,sarif
         #input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         # For Standard
          # additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
