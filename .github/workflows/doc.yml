@@ -40,14 +40,14 @@ jobs:
     #     ls
     - name: Run C++test
       # Use the 'run-cpptest-action' GitHub Action.
-      uses: parasoft/run-cpptest-action@2.0.0
+     # uses: parasoft/run-cpptest-action@2.0.0
       run: |
           docker run --rm -v $PWD:$PWD -w /home/keio/docker_cpptest_standard/examples/ATM parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
-      with:
+     # with:
         #installDir: 'C:\cpptest'
         #compilerConfig: 'gcc_7-64'
         #testConfig: 'builtin://MISRA C 2012'
-        reportFormat: xml,html,sarif
+        #reportFormat: xml,html,sarif
         #input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         # For Standard
          # additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
