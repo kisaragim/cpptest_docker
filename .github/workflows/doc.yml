@@ -1,5 +1,5 @@
 # Use C++test 2022.0
-name: CI-Test-2022
+name: CI-Test-2022-1
 
 on:
   push:
