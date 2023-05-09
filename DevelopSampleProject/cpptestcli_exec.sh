@@ -1,6 +1,6 @@
 export CPPTEST_DIR=/opt/app/cpptest
 export PATH=${CPPTEST_DIR}:$PATH
-export CPPTEST_DIR=/opt/app
+#export CPPTEST_DIR=/opt/app
 
 export WORKSPACE_DIR=../
 export PROJECT_NAME=DevelopSampleProject
