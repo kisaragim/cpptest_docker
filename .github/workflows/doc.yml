@@ -13,7 +13,7 @@ permissions: write-all
 jobs:
   test-cpptest:
     name: Analyze project with C/C++test
-    runs-on: develop_label-1
+    runs-on: develop_work
 
     steps:
     - name: Checkout code
