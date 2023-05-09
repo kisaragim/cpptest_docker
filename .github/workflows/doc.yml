@@ -54,7 +54,7 @@ jobs:
         #commandLinePattern: '${cpptestcli} -data ./ -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} -publish'
         
     - name: Run C++test
-      run: docker run --rm -v $PWD:$PWD -w /cpptest_docker/DevelopSampleProject/BugDetective parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
+      run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject/BugDetective parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     #- name: Upload results (SARIF)
