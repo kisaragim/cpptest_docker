@@ -3,7 +3,7 @@ name: CI-Test-2022
 
 on:
   push:
-    branches: [ master,child_02 ]
+    branches: [ master ]
   #pull_request:
   #  branches: [ master,child_02 ]
   #workflow_dispatch:
@@ -19,13 +19,13 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     
-    - name: Generate BDF
-      env: 
-        CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
-      run: |
-           & "C:\cpptest\bin\cpptesttrace.exe" make all
+    #- name: Generate BDF
+    #  env: 
+    #    CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
+    #  run: |
+    #       & "C:\cpptest\bin\cpptesttrace.exe" make all
            
-      working-directory: .\DevelopSampleProject
+    #  working-directory: .\DevelopSampleProject
       
     #- name: Generate Local Settings
       #run: |
@@ -34,13 +34,15 @@ jobs:
         #echo scontrol.rep.git.branch=main >> ls_2021.properties
         #echo scontrol.rep.git.url=https\://github.com/cpptest-techmatrix/github-actions-cpptest >> ls_2021.properties
         #echo scontrol.rep.git.workspace=C\:\\actions-runner\\_work\\github-actions-cpptest\\github-actions-cpptest >> ls_2021.properties
-    - name: ls_check2
-      run: |
-         cd DevelopSampleProject
-         ls
+    #- name: ls_check2
+    #  run: |
+    #     cd DevelopSampleProject
+    #     ls
     - name: Run C++test
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
+      run: |
+          docker run --rm -v $PWD:$PWD -w /home/keio/docker_cpptest_standard/examples/ATM parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
       with:
         installDir: 'C:\cpptest'
         compilerConfig: 'gcc_7-64'
@@ -52,10 +54,7 @@ jobs:
          # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
         additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
         commandLinePattern: '${cpptestcli} -data ./ -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} -publish'
-    - name: ls_check
-      run: |
-         cd reports
-         ls
+
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
       if: always()
