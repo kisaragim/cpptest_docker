@@ -51,7 +51,7 @@ jobs:
           #additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
          # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
         #additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
-        commandLinePattern: 'cpptestcli -data ./ -compiler gcc_10-64 -config "builtin://Recommended Rules" -report $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all'
+        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -compiler gcc_10-64 -config "builtin://Recommended Rules" -report $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all'
         
     #- name: Run C++test
     #  run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
