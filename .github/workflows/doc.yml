@@ -34,41 +34,41 @@ jobs:
         #echo scontrol.rep.git.branch=main >> ls_2021.properties
         #echo scontrol.rep.git.url=https\://github.com/cpptest-techmatrix/github-actions-cpptest >> ls_2021.properties
         #echo scontrol.rep.git.workspace=C\:\\actions-runner\\_work\\github-actions-cpptest\\github-actions-cpptest >> ls_2021.properties
-    #- name: ls_check2
-    #  run: |
-    #     cd DevelopSampleProject
-    #     ls
-    #- name: Run C++test_git
+    - name: ls_check2
+      run: |
+         cd DevelopSampleProject
+         ls
+    - name: Run C++test_git
       # Use the 'run-cpptest-action' GitHub Action.
-    #  uses: parasoft/run-cpptest-action@2.0.0
-      #with:
+      uses: parasoft/run-cpptest-action@2.0.0
+      with:
         #installDir: 'C:\cpptest'
         #compilerConfig: 'gcc_7-64'
-        #testConfig: 'builtin://MISRA C 2012'
-        #reportFormat: xml,html,sarif
+        testConfig: 'builtin://MISRA C 2012'
+        reportFormat: xml,html,sarif
         #input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         # For Standard
-         # additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
+          #additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
          # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
         #additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
-        #commandLinePattern: '${cpptestcli} -data ./ -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} -publish'
+        commandLinePattern: 'cpptestcli -data ./ -compiler gcc_10-64 -config "builtin://Recommended Rules" -report $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all'
         
-    - name: Run C++test
-      run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
+    #- name: Run C++test
+    #  run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
-    #- name: Upload results (SARIF)
-    #  if: always()
-    #  uses: github/codeql-action/upload-sarif@v2
-    #  env: 
-    #    GITHUB_TOKEN: ${{ secrets.MEHISYA }}
-    #  with:
-    #    sarif_file: reports/report.sarif
+    - name: Upload results (SARIF)
+      if: always()
+      uses: github/codeql-action/upload-sarif@v2
+      env: 
+        GITHUB_TOKEN: ${{ secrets.MEHISYA }}
+      with:
+        sarif_file: reports/report.sarif
     
     # Uploads an archive that includes all report files (.xml, .html, .sarif).
-    #- name: Archive reports
-    #  if: always()
-    #  uses: actions/upload-artifact@v3
-    #  with:
-    #    name: Static analysis reports
-    #    path: reports/*.*
+    - name: Archive reports
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: Static analysis reports
+        path: reports/*.*
