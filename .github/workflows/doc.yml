@@ -23,8 +23,7 @@ jobs:
       env: 
         CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
       run: |
-           & "/home/keio/cpptest/bin/cpptesttrace" make all
-           
+           make .&& /home/keio/cpptest/bin/cpptestscan.sh make all           
       working-directory: DevelopSampleProject
       
     #- name: Generate Local Settings
