@@ -25,7 +25,7 @@ jobs:
       run: |
            & "/home/keio/cpptest/bin/cpptesttrace" make all
            
-    #  working-directory: .\DevelopSampleProject
+      working-directory: .\DevelopSampleProject
       
     #- name: Generate Local Settings
       #run: |
@@ -34,6 +34,10 @@ jobs:
         #echo scontrol.rep.git.branch=main >> ls_2021.properties
         #echo scontrol.rep.git.url=https\://github.com/cpptest-techmatrix/github-actions-cpptest >> ls_2021.properties
         #echo scontrol.rep.git.workspace=C\:\\actions-runner\\_work\\github-actions-cpptest\\github-actions-cpptest >> ls_2021.properties
+    - name: ls_check
+      run: |
+         pwd
+         ls    
     - name: ls_check2
       run: |
          cd DevelopSampleProject
