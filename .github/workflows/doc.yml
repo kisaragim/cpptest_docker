@@ -19,11 +19,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     
-    #- name: Generate BDF
-    #  env: 
-    #    CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
-    #  run: |
-    #       & "C:\cpptest\bin\cpptesttrace.exe" make all
+    - name: Generate BDF
+      env: 
+        CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
+      run: |
+           & "/home/keio/cpptest/bin/cpptesttrace" make all
            
     #  working-directory: .\DevelopSampleProject
       
@@ -51,7 +51,7 @@ jobs:
           #additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
          # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
         #additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
-        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports -module . -trace make clean all'
+        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
     #- name: Run C++test
     #  run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
