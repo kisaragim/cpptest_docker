@@ -25,8 +25,7 @@ jobs:
          ls 
     
     -name: docker_RUN
-     run: |
-          docker run --name gcc --workdir=$PWD/DevelopSampleProject -itd -v /$PWD/DevelopSampleProject:$PWD/DevelopSampleProject -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
+     run: docker run --name gcc --workdir=$PWD/DevelopSampleProject -itd -v /$PWD/DevelopSampleProject:$PWD/DevelopSampleProject -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
     
     - name: Generate BDF
       env: 
