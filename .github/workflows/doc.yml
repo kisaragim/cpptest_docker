@@ -31,6 +31,7 @@ jobs:
     
     - name: Generate BDF
       env: 
+        CPPTEST_SCAN_OUTPUT_FILE: ./DevelopSampleProject/cpptestscan.bdf
         CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
       run: |
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B         
@@ -61,7 +62,7 @@ jobs:
         reportFormat: xml,html,sarif
         input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -resource ./BugDetective -config "${testConfig}" -bdf "${input}" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
+        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -resource ./DevelopSampleProject/BugDetective -config "${testConfig}" -bdf "${input}" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
