@@ -24,10 +24,10 @@ jobs:
          pwd
          ls 
     
-    -name: docker_RUN
-     run: |
-         cd DevelopSampleProject
-         docker run --name gcc --workdir=$PWD -itd -v /$PWD:$PWD -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
+    #-name: docker_RUN
+    # run: |
+    #     cd DevelopSampleProject
+    #     docker run --name gcc --workdir=$PWD -itd -v /$PWD:$PWD -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
     
     - name: Generate BDF
       env: 
