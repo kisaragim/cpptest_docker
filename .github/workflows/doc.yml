@@ -35,10 +35,9 @@ jobs:
         CPPTEST_SCAN_PROJECT_NAME: BugDetective
       run: |
            ls
-           cd BugDetective
            make clern
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B         
-      working-directory: ./DevelopSampleProject
+      working-directory: ./DevelopSampleProject/BugDetective
       
     #- name: Generate Local Settings
       #run: |
