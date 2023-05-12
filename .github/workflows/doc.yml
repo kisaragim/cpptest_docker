@@ -37,7 +37,7 @@ jobs:
            ls
            make clern
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B         
-      working-directory: ./
+      working-directory: ./DevelopSampleProject
       
     #- name: Generate Local Settings
       #run: |
