@@ -59,9 +59,9 @@ jobs:
         compilerConfig: 'gcc_7-64'
         testConfig: 'Recommended Rules'
         reportFormat: xml,html,sarif
-        input: './DevelopSampleProject/cpptestscan.bdf'
+        input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -config "${testConfig}" -bdf "${input}" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
+        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -resource ./BugDetective -config "${testConfig}" -bdf "${input}" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
