@@ -55,13 +55,15 @@ jobs:
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
       with:
-        #installDir: 'C:\cpptest'
-        #compilerConfig: 'gcc_7-64'
+        installDir: '/home/keio/cpptest/'
+        compilerConfig: 'gcc_7-64'
         testConfig: 'builtin://MISRA C 2012'
         reportFormat: xml,html,sarif
         #input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
         # For Standard
-          #additionalParams: '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
+         additionalParams: |
+          '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
+          -localsettings cpptestcli.properties
          # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
         #additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
         commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
