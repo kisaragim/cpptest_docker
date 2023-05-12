@@ -61,7 +61,7 @@ jobs:
         reportFormat: xml,html,sarif
         input: './DevelopSampleProject/cpptestscan.bdf'
         additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -resource BugDetective -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
+        commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./DevelopSampleProject -resource BugDetective -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
