@@ -34,6 +34,7 @@ jobs:
         CPPTEST_SCAN_OUTPUT_FILE: ./DevelopSampleProject/cpptestscan.bdf
         CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
       run: |
+           ls
            cd DevelopSampleProject
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B         
       working-directory: ./DevelopSampleProject
