@@ -57,19 +57,12 @@ jobs:
       with:
         installDir: '/home/keio/cpptest/'
         compilerConfig: 'gcc_7-64'
-        testConfig: 'builtin://MISRA C 2012'
+        testConfig: 'Recommended Rules'
         reportFormat: xml,html,sarif
-        #input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
-        # For Standard
-         additionalParams: |
-          '-property report.custom.extension=sarif -property report.custom.xsl.file=${PARASOFT_SARIF_XSL}'
-          -localsettings cpptestcli.properties
-         # commandLinePattern : ' ${cpptestcli} -data ../workspace -config "${testConfig}" -report "${reportDir}" -bdf "${input}" ${additionalParams} '
-        #additionalParams: '-localsettings ./DevelopSampleProject/setting.properties'
+        input: './DevelopSampleProject/cpptestscan.bdf'
+        additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
         commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -config "builtin://Recommended Rules" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
-    #- name: Run C++test
-    #  run: docker run --rm -v $PWD:$PWD -w $PWD/cpptest_docker/DevelopSampleProject parasoft/cpptest cpptestcli -compiler gcc_10-64 -config "builtin://Recommended Rules" -settings $PWD/cpptestcli.properties -report $PWD/reports -module . -trace make clean all
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
     - name: Upload results (SARIF)
