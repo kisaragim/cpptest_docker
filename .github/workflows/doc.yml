@@ -36,9 +36,7 @@ jobs:
       run: |
            docker exec gcc /bin/bash
            ls
-           cd ../../../../../
-           cd actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective
-           '/home/keio/cpptest/bin/cpptesttrace' make    
+           '/home/keio/cpptest/bin/cpptesttrace' make -i -B   
       working-directory: ./DevelopSampleProject/BugDetective
       
     #- name: Generate Local Settings
