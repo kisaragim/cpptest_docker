@@ -35,7 +35,7 @@ jobs:
         CPPTEST_SCAN_PROJECT_NAME: BugDetective
       run: |
            ls
-           '/home/keio/cpptest/bin/cpptesttrace' make all        
+           '/home/keio/cpptest/bin/cpptesttrace' make    
       working-directory: ./DevelopSampleProject/BugDetective
       
     #- name: Generate Local Settings
@@ -59,10 +59,10 @@ jobs:
       with:
         installDir: '/home/keio/cpptest/'
         compilerConfig: 'gcc_7-64'
-        testConfig: 'Recommended Rules'
+        testConfig: 'builtin://Recommended Rules'
         reportFormat: xml,html,sarif
         input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
-        additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
+        #additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
         commandLinePattern: '/home/keio/cpptest/cpptestcli -data ./ -resource ./DevelopSampleProject/BugDetective -config "${testConfig}" -bdf "${input}" -settings $PWD/DevelopSampleProject/cpptestcli.properties -report $PWD/DevelopSampleProject/reports'
         
 
