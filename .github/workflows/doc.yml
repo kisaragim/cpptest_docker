@@ -25,28 +25,20 @@ jobs:
          ls 
     
     #-name: docker_RUN
-    # run: |
-    #     cd DevelopSampleProject
-    #     docker run --name gcc --workdir=$PWD -itd -v /$PWD:$PWD -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
+    # run: docker run --name gcc --workdir=$PWD -itd -v /$PWD:$PWD -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
     
     - name: Generate BDF
       env: 
         CPPTEST_SCAN_OUTPUT_FILE: ./BugDetective/cpptestscan.bdf
         CPPTEST_SCAN_PROJECT_NAME: BugDetective
       run: |
+           docker start gcc
            docker exec gcc /bin/bash
            gcc --version
            ls
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B   
       working-directory: ./DevelopSampleProject/BugDetective
       
-    #- name: Generate Local Settings
-      #run: |
-        #echo report.format=sarif > ls_2021.properties
-        #echo scontrol.git.exec=git.exe >> ls_2021.properties
-        #echo scontrol.rep.git.branch=main >> ls_2021.properties
-        #echo scontrol.rep.git.url=https\://github.com/cpptest-techmatrix/github-actions-cpptest >> ls_2021.properties
-        #echo scontrol.rep.git.workspace=C\:\\actions-runner\\_work\\github-actions-cpptest\\github-actions-cpptest >> ls_2021.properties
     - name: ls_check2
       run: |
          pwd
