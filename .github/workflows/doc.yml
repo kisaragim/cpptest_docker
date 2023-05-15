@@ -35,7 +35,6 @@ jobs:
         CPPTEST_SCAN_PROJECT_NAME: BugDetective
       run: |
            ls
-           docker exec -it gcc /bin/bash
            '/home/keio/cpptest/bin/cpptesttrace' make -i -B         
       working-directory: ./DevelopSampleProject/BugDetective
       
