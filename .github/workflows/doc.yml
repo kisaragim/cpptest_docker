@@ -32,10 +32,7 @@ jobs:
         CPPTEST_SCAN_OUTPUT_FILE: ./BugDetective/cpptestscan.bdf
         CPPTEST_SCAN_PROJECT_NAME: BugDetective
       run: |
-           docker exec gcc /bin/bash
-           pwd
-           gcc --version
-           '/home/keio/cpptest/bin/cpptesttrace' make -i -B   
+           ocker exec gcc /home/keio/cpptest/bin/cpptesttrace make all
       working-directory: ./DevelopSampleProject/BugDetective
       
     - name: ls_check2
