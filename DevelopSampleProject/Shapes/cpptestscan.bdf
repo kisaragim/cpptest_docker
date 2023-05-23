@@ -48,3 +48,13 @@ arg=Rectangle.cpp
 arg=Square.cpp
 arg=BetterRectangle.cpp
 arg=Main.cpp
+------- cpptestscan v.10.6.1.20221114B3490 (cpptesttrace) -------
+working_dir=/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/Shapes
+project_name=Shapes
+arg=g++
+arg=Logger.cpp
+arg=Point.cpp
+arg=Rectangle.cpp
+arg=Square.cpp
+arg=BetterRectangle.cpp
+arg=Main.cpp
