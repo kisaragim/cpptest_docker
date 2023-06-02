@@ -43,6 +43,7 @@ jobs:
       run: |
          cd DevelopSampleProject
          ls
+         gcc --version
     - name: Run C++test_git
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
