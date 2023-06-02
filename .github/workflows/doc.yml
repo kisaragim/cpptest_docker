@@ -39,8 +39,6 @@ jobs:
     - name: ls_check2
       run: |
          pwd
-         cd /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
-         mkdir -m 777 report
          ls    
     - name: ls_check3
       run: |
@@ -56,7 +54,7 @@ jobs:
         reportFormat: xml,html,sarif
         input: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf'
         additionalParams: '-localsettings /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: docker exec gcc "${installDir}/cpptestcli" -data "/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject" -config "${testConfig}" -bdf "${input}" "${additionalParams}" -report 
+        commandLinePattern: docker exec gcc "${installDir}/cpptestcli" -data "/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject" -config "${testConfig}" -bdf "${input}" "${additionalParams}" -report "/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject"
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
@@ -66,7 +64,7 @@ jobs:
       env: 
         GITHUB_TOKEN: ${{ secrets.MEHISYA }}
       with:
-        sarif_file: reports/report.sarif
+        sarif_file: /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/report.sarif
     
     # Uploads an archive that includes all report files (.xml, .html, .sarif).
     - name: Archive reports
