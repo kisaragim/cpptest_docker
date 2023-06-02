@@ -52,8 +52,8 @@ jobs:
         testConfig: 'builtin://Recommended Rules'
         reportFormat: xml,html,sarif
         input: './DevelopSampleProject/BugDetective/cpptestscan.bdf'
-        #additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: docker exec gcc "/home/keio/cpptest/cpptestcli" -data ./ -config "${testConfig}" -bdf "${input}" -settings "./DevelopSampleProject/cpptestcli.properties" -report "./DevelopSampleProject"
+        additionalParams: '-localsettings ./DevelopSampleProject/cpptestcli.properties'
+        commandLinePattern: docker exec gcc '/home/keio/cpptest/cpptestcli -data ./ -config "${testConfig}" -bdf "${input}" ${additionalParams}'
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
