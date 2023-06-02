@@ -39,6 +39,8 @@ jobs:
     - name: ls_check2
       run: |
          pwd
+         cd /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
+         mkdir -m 777 report
          ls    
     - name: ls_check3
       run: |
@@ -54,7 +56,7 @@ jobs:
         reportFormat: xml,html,sarif
         input: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf'
         additionalParams: '-localsettings /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: docker exec gcc "${installDir}/cpptestcli" -data "/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject" -config "${testConfig}" -bdf "${input}" ${additionalParams}
+        commandLinePattern: docker exec gcc "${installDir}/cpptestcli" -data "/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject" -config "${testConfig}" -bdf "${input}" "${additionalParams}" -report 
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
