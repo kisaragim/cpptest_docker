@@ -1,6 +1,7 @@
 # パス設定aaaa
 export CPPTEST_TRACE_DIR=/home/keio/cpptest/bin
 export PATH=${PATH}:${CPPTEST_TRACE_DIR}
+#aaaaaa
 # ビルドデータファイル作成のための環境変数設定
 export PROJECT_DIR=$PWD
 export CPPTEST_SCAN_OUTPUT_FILE=${PROJECT_DIR}/cpptestscan.bdf
