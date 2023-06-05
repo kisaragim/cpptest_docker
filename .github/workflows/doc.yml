@@ -50,8 +50,6 @@ jobs:
     - name: change_permission
       run: |
          cd /home/keio/cpptest_git/cpptest_docker/sagyou/reports
-         chmod 777 report.sarif
-         chmod 777 report.xml
          rm -rf report.sarif
          rm -rf report.xml
 
