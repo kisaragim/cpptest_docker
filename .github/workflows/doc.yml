@@ -46,6 +46,15 @@ jobs:
       run: |
          ls
          docker exec gcc gcc --version
+         
+    - name: change_permission
+      run: |
+         cd /home/keio/cpptest_git/cpptest_docker/sagyou/reports
+         chmod 777 report.sarif
+         chmod 777 report.xml
+         rm -rf report.sarif
+         rm -rf report.xml
+
     - name: Run C++test_git
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
