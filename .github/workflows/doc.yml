@@ -67,7 +67,7 @@ jobs:
       env: 
         GITHUB_TOKEN: ${{ secrets.MEHISYA }}
       with:
-        sarif_file: reports/report.sarif
+        sarif_file: /home/keio/cpptest_git/cpptest_docker/sagyou/reports/report.sarif
     
     # Uploads an archive that includes all report files (.xml, .html, .sarif).
     - name: Archive reports
