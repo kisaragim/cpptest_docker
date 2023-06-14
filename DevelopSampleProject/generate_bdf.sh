@@ -1,4 +1,4 @@
-# パス設定aaaa
+# パス設定
 export CPPTEST_TRACE_DIR=/home/keio/cpptest/bin
 export PATH=${PATH}:${CPPTEST_TRACE_DIR}
 
