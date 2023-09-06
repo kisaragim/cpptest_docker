@@ -29,7 +29,7 @@ jobs:
         CPPTEST_SCAN_OUTPUT_FILE: /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf
         CPPTEST_SCAN_PROJECT_NAME: DevelopSampleProject
       run: |
-           cd /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
+           cd /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective
            docker exec gcc /opt/app/parasoft/cpptest/bin/cpptesttrace make all
 
       working-directory: /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
