@@ -23,10 +23,7 @@ jobs:
       run: |
          pwd
          ls 
-    
-    #-name: docker_RUN
-    # run: docker run --name gcc --workdir=$PWD -itd -v /$PWD:$PWD -v /home/keio/cpptest:/home/keio/cpptest gcc:gcc11
-    
+        
     - name: Generate BDF
       env: 
         CPPTEST_SCAN_OUTPUT_FILE: /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf
@@ -57,7 +54,7 @@ jobs:
       # Use the 'run-cpptest-action' GitHub Action.
       uses: parasoft/run-cpptest-action@2.0.0
       with:
-        installDir: '/home/keio/cpptest/'
+        installDir: '/opt/app/parasoft/cpptest/'
         compilerConfig: 'gcc_7-64'
         testConfig: 'builtin://Recommended Rules'
         reportFormat: xml,html,sarif
