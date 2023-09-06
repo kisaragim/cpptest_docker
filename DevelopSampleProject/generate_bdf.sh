@@ -1,5 +1,5 @@
 
-export CPPTEST_TRACE_DIR=/home/keio/cpptest/bin
+export CPPTEST_TRACE_DIR=/opt/app/parasoft/cpptest/bin
 export PATH=${PATH}:${CPPTEST_TRACE_DIR}
 
 # ビルドデータファイル作成のための環境変数設定

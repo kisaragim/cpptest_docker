@@ -6,10 +6,11 @@
 
 Person* cache[CACHE_SIZE];
 
-//change file
-
 int clip(int n, int l, int h)
 {
+    //change file
+    //int test = 0;
+
     int asasas = 10;
     return (n > h) ? h : ((n < l) ? l : n);
 }
