@@ -3,7 +3,7 @@ name: CI-Test-2022-1
 
 on:
   push:
-  #  branches: [ master ]
+    branches: [ master ]
   #pull_request:
   #  branches: [ master,child_02 ]
   #workflow_dispatch:
@@ -31,7 +31,7 @@ jobs:
       run: |
            cd /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
            #docker exec gcc /opt/app/parasoft/cpptest/bin/cpptesttrace make all
-           docker exec gcc /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/generate_bdf.sh
+
       working-directory: /home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject
       
     - name: ls_check2
