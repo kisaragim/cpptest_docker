@@ -2,6 +2,7 @@
 
 double BetterRectangle::getArea()
 {
+    int git_test = 0;
     double area = _horlength * _verlength;
     return area;
 }
