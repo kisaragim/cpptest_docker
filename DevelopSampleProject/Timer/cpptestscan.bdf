@@ -1,0 +1,10 @@
+------- cpptestscan v.10.6.1.20221114B3490 (cpptesttrace) -------
+working_dir=/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/Timer
+project_name=Timer
+arg=gcc
+arg=clock.o
+arg=driver.o
+arg=timer.o
+arg=stdinout.o
+arg=-o
+arg=timer.exe
