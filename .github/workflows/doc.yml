@@ -3,7 +3,7 @@ name: CI-Test-2022-1
 
 on:
   push:
-    branches: [ main ]
+  #  branches: [ main ]
   #pull_request:
   #  branches: [ master,child_02 ]
   #workflow_dispatch:
