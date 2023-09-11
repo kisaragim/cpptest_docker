@@ -80,4 +80,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Static analysis reports
-        path: reports/*.*
+        path: /home/keio/cpptest_git/cpptest_docker/sagyou/reports/*.*
