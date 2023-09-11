@@ -57,7 +57,7 @@ jobs:
       with:
         installDir: '/opt/app/parasoft/cpptest/'
         compilerConfig: 'gcc_7-64'
-        testConfig: 'builtin://Recommended Rules'
+        testConfig: 'builtin://Flow Analysis Aggressive'
         reportFormat: xml,html,sarif
         input: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/Shapes/cpptestscan.bdf'
         reportDir: '/home/keio/cpptest_git/cpptest_docker/sagyou/reports'
