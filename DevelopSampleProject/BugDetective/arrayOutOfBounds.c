@@ -9,7 +9,7 @@ Person* cache[CACHE_SIZE];
 int clip(int n, int l, int h)
 {
     //change file
-    //int git_test = 0;
+    int git_test = 0;
 
     int asasas = 10;
     return (n > h) ? h : ((n < l) ? l : n);
