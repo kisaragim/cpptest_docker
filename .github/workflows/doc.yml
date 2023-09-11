@@ -62,7 +62,7 @@ jobs:
         input: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf'
         reportDir: '/home/keio/cpptest_git/cpptest_docker/sagyou/reports'
         additionalParams: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/cpptestcli.properties'
-        commandLinePattern: ${installDir}/cpptestcli -data "/home/keio/cpptest_git/cpptest_docker/sagyou/workdir" -config "${testConfig}" -bdf "${input}" -localsettings "${additionalParams}" -report "${reportDir}"
+        commandLinePattern: ${installDir}cpptestcli -data "/home/keio/cpptest_git/cpptest_docker/sagyou/workdir" -config "${testConfig}" -bdf "${input}" -localsettings "${additionalParams}" -report "${reportDir}"
         
 
     # Uploads analysis results in the SARIF format, so that they are displayed as GitHub code scanning alerts.
