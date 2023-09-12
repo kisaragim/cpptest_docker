@@ -1,0 +1,310 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=helper1; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>6
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=helper1; SIGNATURE=helper1; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=6; END_LINE=10; TEMPLATE_FUNC=
+<l>6
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=helper1; NBD=0; TEMPLATE_FUNC=
+<l>6
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=helper2; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>12
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=helper2; SIGNATURE=helper2; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=12; END_LINE=14; TEMPLATE_FUNC=
+<l>12
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=helper2; NBD=0; TEMPLATE_FUNC=
+<l>12
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=noFalseViolation1; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>16
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=noFalseViolation1; SIGNATURE=noFalseViolation1; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=16; END_LINE=23; TEMPLATE_FUNC=
+<l>16
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=noFalseViolation1; NBD=0; TEMPLATE_FUNC=
+<l>16
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=noFalseViolation2; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>25
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=noFalseViolation2; SIGNATURE=noFalseViolation2; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=25; END_LINE=32; TEMPLATE_FUNC=
+<l>25
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=noFalseViolation2; NBD=0; TEMPLATE_FUNC=
+<l>25
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=noFalseViolation3; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>34
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=noFalseViolation3; SIGNATURE=noFalseViolation3; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=34; END_LINE=42; TEMPLATE_FUNC=
+<l>34
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=noFalseViolation3; NBD=0; TEMPLATE_FUNC=
+<l>34
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=trueViolation; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>44
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=trueViolation; SIGNATURE=trueViolation; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=44; END_LINE=52; TEMPLATE_FUNC=
+<l>44
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=trueViolation; NBD=0; TEMPLATE_FUNC=
+<l>44
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=functionCall_noFalseViolation1; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>54
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=functionCall_noFalseViolation1; SIGNATURE=functionCall_noFalseViolation1; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=54; END_LINE=59; TEMPLATE_FUNC=
+<l>54
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=functionCall_noFalseViolation1; NBD=0; TEMPLATE_FUNC=
+<l>54
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=functionCall_noFalseViolation2; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>62
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=functionCall_noFalseViolation2; SIGNATURE=functionCall_noFalseViolation2; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=62; END_LINE=66; TEMPLATE_FUNC=
+<l>62
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=functionCall_noFalseViolation2; NBD=0; TEMPLATE_FUNC=
+<l>62
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=functionCall_trueViolation1; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>68
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=functionCall_trueViolation1; SIGNATURE=functionCall_trueViolation1; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=68; END_LINE=73; TEMPLATE_FUNC=
+<l>68
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=functionCall_trueViolation1; NBD=0; TEMPLATE_FUNC=
+<l>68
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=functionCall_trueViolation2; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>75
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=functionCall_trueViolation2; SIGNATURE=functionCall_trueViolation2; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=75; END_LINE=78; TEMPLATE_FUNC=
+<l>75
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=functionCall_trueViolation2; NBD=0; TEMPLATE_FUNC=
+<l>75
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SBSSBSSSSSBSSSBSSSSSSSSBSSSSSSSSBSSSSSSSSSBSSSSSSSSSBSSSSSSBBSMSSSBSSSSSSBSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

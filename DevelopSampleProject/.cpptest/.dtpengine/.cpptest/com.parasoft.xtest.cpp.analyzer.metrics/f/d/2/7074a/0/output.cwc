@@ -1,0 +1,120 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=printFile; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=printFile; SIGNATURE=printFile; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=9; END_LINE=21; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=printFile; NBD=2; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=displayFileContent; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=displayFileContent; SIGNATURE=displayFileContent; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=23; END_LINE=36; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=displayFileContent; NBD=1; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=displayContentOfSeveralFiles; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=displayContentOfSeveralFiles; SIGNATURE=displayContentOfSeveralFiles; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=38; END_LINE=59; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=displayContentOfSeveralFiles; NBD=2; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>INTERNAL-METRICS-TYPES
+<b>CLASS=Person; NAMESPACE=; TEMPLATE_TYPE=; TAG=struct
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=retrievePersonFromDB; SIGNATURE=retrievePersonFromDB; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=9; END_LINE=9; TEMPLATE_FUNC=
+<l>9
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SSBCCCCBSSSSSSSSSSSSSBSSSSSSSSSSCCSSBSSSSSSSSSSSSSSSSSSCSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

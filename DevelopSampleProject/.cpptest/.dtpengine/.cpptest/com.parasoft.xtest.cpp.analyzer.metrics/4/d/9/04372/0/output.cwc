@@ -1,0 +1,210 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=displayPersonalInfo; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>5
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=displayPersonalInfo; SIGNATURE=displayPersonalInfo; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=5; END_LINE=10; TEMPLATE_FUNC=
+<l>5
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=displayPersonalInfo; NBD=0; TEMPLATE_FUNC=
+<l>5
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=createNewPerson; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>12
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=createNewPerson; SIGNATURE=createNewPerson; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=12; END_LINE=21; TEMPLATE_FUNC=
+<l>12
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=createNewPerson; NBD=0; TEMPLATE_FUNC=
+<l>12
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=calculateAverageSalary; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=calculateAverageSalary; SIGNATURE=calculateAverageSalary; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=23; END_LINE=27; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=calculateAverageSalary; NBD=0; TEMPLATE_FUNC=
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=processStaff; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>29
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=processStaff; SIGNATURE=processStaff; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=29; END_LINE=36; TEMPLATE_FUNC=
+<l>29
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=processStaff; NBD=1; TEMPLATE_FUNC=
+<l>29
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=processFile; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=processFile; SIGNATURE=processFile; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=38; END_LINE=42; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=processFile; NBD=0; TEMPLATE_FUNC=
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=main; CC=2; SCC=2; MCC=2; TEMPLATE_FUNC=
+<l>44
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=main; SIGNATURE=main; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=44; END_LINE=57; TEMPLATE_FUNC=
+<l>44
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=main; NBD=1; TEMPLATE_FUNC=
+<l>44
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>INTERNAL-METRICS-TYPES
+<b>CLASS=Person; NAMESPACE=; TEMPLATE_TYPE=; TAG=struct
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=retrievePersonFromDB; SIGNATURE=retrievePersonFromDB; NAMESPACE=; PARAMNO=1; DEF=false; START_LINE=9; END_LINE=9; TEMPLATE_FUNC=
+<l>9
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SSSBSSSSSSBSSSSSSSSSSBSSSSSBSSSSSSSSBSSCSSBSSSSSSSSSSSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

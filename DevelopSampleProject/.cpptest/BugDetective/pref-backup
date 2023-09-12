@@ -1,0 +1,5 @@
+#Preferences Backup
+#Tue Sep 12 00:32:00 GMT 2023
+com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf
+com.parasoft.xtest.checkers.api.cpp.options.advanced.options=
+com.parasoft.xtest.checkers.api.cpp.options.compiler.family.linux.x86=gcc_11-64

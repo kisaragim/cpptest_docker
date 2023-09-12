@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Metrics writerVersion="0.1.1" toolVer="2022.2.0" execEnv="linux_x86_64" hasViols="true" project="" buildId="Default Project-2023-09-12" climode="true" toolDispName="C/C++test" prjModule="BugDetective" toolId="c++test" machine="f4ce4f3ddc16" tag="Recommended Rules" time="2023-09-12T00:32:06+00:00" id="1695809759625" lang="en_US" user="root" toolName="DTP Engine for C/C++">
+  <TestConfig machine="f4ce4f3ddc16" pseudoUrl="builtin://Recommended Rules" name="Recommended Rules" user="root" />
+  <Analyzers>
+    <Analyzer id="com.parasoft.xtest.scope.analyzer" name="Scope Analyzer" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.code" name="Parasoft C/C++ Code Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.desktop.files.in.scope" name="Helper Scope Analyzer for C/C++test Professional" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.dupcode.parser" name="Code Duplication Parser" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.pattern" name="Parasoft C/C++ Static Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.flow" name="Parasoft C/C++ Flow Analyzer" ver="10.6.1.20221108B3828" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.metrics" name="Parasoft C/C++ Metrics Analyzer" ver="10.6.1.20221118B1887" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.dupcode" name="Code Duplication Detector" ver="10.6.1.20221116" />
+    <Analyzer id="com.parasoft.xtest.cpp.analyzer.static.global" name="Parasoft C/C++ Global Static Analyzer" ver="10.6.1.20221118B1887" />
+  </Analyzers>
+  <Repositories />
+  <Locations>
+    <Loc locRef="1" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c" projPath="/BugDetective" resProjPath="arrayOutOfBounds.c" totLns="48" hash="-553123729" />
+    <Loc locRef="2" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c" projPath="/BugDetective" resProjPath="bufferOverflow.c" totLns="35" hash="1082458265" />
+    <Loc locRef="3" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.c" projPath="/BugDetective" resProjPath="dbutil.c" totLns="17" hash="-892903586" />
+    <Loc locRef="4" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/divisionByZero.c" projPath="/BugDetective" resProjPath="divisionByZero.c" totLns="58" hash="1923244810" />
+    <Loc locRef="5" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c" projPath="/BugDetective" resProjPath="fileLeaks.c" totLns="60" hash="1210532432" />
+    <Loc locRef="6" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/integerOverflow.c" projPath="/BugDetective" resProjPath="integerOverflow.c" totLns="42" hash="-1197576192" />
+    <Loc locRef="7" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/memoryLeaks.c" projPath="/BugDetective" resProjPath="memoryLeaks.c" totLns="46" hash="1502549011" />
+    <Loc locRef="8" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDeref.c" projPath="/BugDetective" resProjPath="nullPointerDeref.c" totLns="43" hash="522847191" />
+    <Loc locRef="9" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/nullPointerDerefBenchmark.c" projPath="/BugDetective" resProjPath="nullPointerDerefBenchmark.c" totLns="79" hash="-1583021683" />
+    <Loc locRef="10" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.c" projPath="/BugDetective" resProjPath="sql.c" totLns="12" hash="1115766966" />
+    <Loc locRef="11" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c" projPath="/BugDetective" resProjPath="sqlInjection.c" totLns="37" hash="-1138451494" />
+    <Loc locRef="12" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c" projPath="/BugDetective" resProjPath="unreachableCode.c" totLns="68" hash="1398926183" />
+    <Loc locRef="13" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/useBeforeInit.c" projPath="/BugDetective" resProjPath="useBeforeInit.c" totLns="53" hash="-54878936" />
+    <Loc locRef="14" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h" projPath="/BugDetective" resProjPath="dbutil.h" totLns="10" hash="-390129458" />
+    <Loc locRef="15" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/socket.h" projPath="/BugDetective" resProjPath="socket.h" totLns="22" hash="-1106475955" />
+    <Loc locRef="16" projId="BugDetective" auth="root" project="BugDetective" uri="file://f4ce4f3ddc16/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h" projPath="/BugDetective" resProjPath="sql.h" totLns="28" hash="-1897154214" />
+  </Locations>
+<Values>
+  <Metric id="METRIC.NOPLIF" itemId="useBeforeInit.c" item="useBeforeInit.c" val="53.0" module="BugDetective" ln="1" locRef="13" />
+  <Metric id="METRIC.NOPLIF" itemId="nullPointerDeref.c" item="nullPointerDeref.c" val="43.0" module="BugDetective" ln="1" locRef="8" />
+  <Metric id="METRIC.NOPLIF" itemId="sqlInjection.c" item="sqlInjection.c" val="37.0" module="BugDetective" ln="1" locRef="11" />
+  <Metric id="METRIC.NOPLIF" itemId="dbutil.c" item="dbutil.c" val="17.0" module="BugDetective" ln="1" locRef="3" />
+  <Metric id="METRIC.NOPLIF" itemId="integerOverflow.c" item="integerOverflow.c" val="42.0" module="BugDetective" ln="1" locRef="6" />
+  <Metric id="METRIC.NOPLIF" itemId="dbutil.h" item="dbutil.h" val="10.0" module="BugDetective" ln="1" locRef="14" />
+  <Metric id="METRIC.NOPLIF" itemId="socket.h" item="socket.h" val="22.0" module="BugDetective" ln="1" locRef="15" />
+  <Metric id="METRIC.NOPLIF" itemId="sql.c" item="sql.c" val="12.0" module="BugDetective" ln="1" locRef="10" />
+  <Metric id="METRIC.NOPLIF" itemId="nullPointerDerefBenchmark.c" item="nullPointerDerefBenchmark.c" val="79.0" module="BugDetective" ln="1" locRef="9" />
+  <Metric id="METRIC.NOPLIF" itemId="arrayOutOfBounds.c" item="arrayOutOfBounds.c" val="48.0" module="BugDetective" ln="1" locRef="1" />
+  <Metric id="METRIC.NOPLIF" itemId="bufferOverflow.c" item="bufferOverflow.c" val="35.0" module="BugDetective" ln="1" locRef="2" />
+  <Metric id="METRIC.NOPLIF" itemId="memoryLeaks.c" item="memoryLeaks.c" val="46.0" module="BugDetective" ln="1" locRef="7" />
+  <Metric id="METRIC.NOPLIF" itemId="unreachableCode.c" item="unreachableCode.c" val="68.0" module="BugDetective" ln="1" locRef="12" />
+  <Metric id="METRIC.NOPLIF" itemId="fileLeaks.c" item="fileLeaks.c" val="60.0" module="BugDetective" ln="1" locRef="5" />
+  <Metric id="METRIC.NOPLIF" itemId="divisionByZero.c" item="divisionByZero.c" val="58.0" module="BugDetective" ln="1" locRef="4" />
+  <Metric id="METRIC.NOPLIF" itemId="sql.h" item="sql.h" val="28.0" module="BugDetective" ln="1" locRef="16" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#processFile" item="processFile" val="4.0" module="BugDetective" ln="38" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="8.0" module="BugDetective" ln="16" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#createNewPerson" item="createNewPerson" val="10.0" module="BugDetective" ln="12" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="8.0" module="BugDetective" ln="25" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="arrayOutOfBounds.c#selectPerson" item="selectPerson" val="10.0" module="BugDetective" ln="18" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#helper2" item="helper2" val="3.0" module="BugDetective" ln="12" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#helper1" item="helper1" val="5.0" module="BugDetective" ln="6" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="memoryLeaks.c#storePerson" item="storePerson" val="3.0" module="BugDetective" ln="5" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="18.0" module="BugDetective" ln="10" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="unreachableCode.c#guessFigure" item="guessFigure" val="30.0" module="BugDetective" ln="11" locRef="12" />
+  <Metric id="METRIC.NOSLIM" itemId="integerOverflow.c#readMessage" item="readMessage" val="22.0" module="BugDetective" ln="16" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="9.0" module="BugDetective" ln="44" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="22.0" module="BugDetective" ln="30" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#main" item="main" val="14.0" module="BugDetective" ln="44" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="sqlInjection.c#extractPassword" item="extractPassword" val="4.0" module="BugDetective" ln="18" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="arrayOutOfBounds.c#clearCache" item="clearCache" val="10.0" module="BugDetective" ln="33" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="integerOverflow.c#decode" item="decode" val="4.0" module="BugDetective" ln="10" locRef="6" />
+  <Metric id="METRIC.NOSLIM" itemId="unreachableCode.c#checkRange" item="checkRange" val="9.0" module="BugDetective" ln="44" locRef="12" />
+  <Metric id="METRIC.NOSLIM" itemId="bufferOverflow.c#resetAll" item="resetAll" val="4.0" module="BugDetective" ln="30" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="fileLeaks.c#displayFileContent" item="displayFileContent" val="12.0" module="BugDetective" ln="23" locRef="5" />
+  <Metric id="METRIC.NOSLIM" itemId="fileLeaks.c#printFile" item="printFile" val="13.0" module="BugDetective" ln="9" locRef="5" />
+  <Metric id="METRIC.NOSLIM" itemId="useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="3.0" module="BugDetective" ln="10" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="4.0" module="BugDetective" ln="44" locRef="1" />
+  <Metric id="METRIC.NOSLIM" itemId="bufferOverflow.c#fillBuffer" item="fillBuffer" val="7.0" module="BugDetective" ln="9" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="bufferOverflow.c#resetBuffer" item="resetBuffer" val="5.0" module="BugDetective" ln="24" locRef="2" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#processStaff" item="processStaff" val="8.0" module="BugDetective" ln="29" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="6.0" module="BugDetective" ln="5" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="8.0" module="BugDetective" ln="10" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="9.0" module="BugDetective" ln="34" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDeref.c#init" item="init" val="7.0" module="BugDetective" ln="36" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="sqlInjection.c#extractUsername" item="extractUsername" val="4.0" module="BugDetective" ln="12" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="4.0" module="BugDetective" ln="75" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="12.0" module="BugDetective" ln="15" locRef="13" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="6.0" module="BugDetective" ln="68" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="5.0" module="BugDetective" ln="62" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="21.0" module="BugDetective" ln="38" locRef="5" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDeref.c#createPerson" item="createPerson" val="8.0" module="BugDetective" ln="27" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="6.0" module="BugDetective" ln="54" locRef="9" />
+  <Metric id="METRIC.NOSLIM" itemId="memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="11.0" module="BugDetective" ln="32" locRef="7" />
+  <Metric id="METRIC.NOSLIM" itemId="dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="12.0" module="BugDetective" ln="5" locRef="3" />
+  <Metric id="METRIC.NOSLIM" itemId="sql.c#SQLExecDirect" item="SQLExecDirect" val="7.0" module="BugDetective" ln="6" locRef="10" />
+  <Metric id="METRIC.NOSLIM" itemId="unreachableCode.c#checkSequence" item="checkSequence" val="11.0" module="BugDetective" ln="56" locRef="12" />
+  <Metric id="METRIC.NOSLIM" itemId="nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="6.0" module="BugDetective" ln="20" locRef="8" />
+  <Metric id="METRIC.NOSLIM" itemId="sqlInjection.c#handleRequest" item="handleRequest" val="12.0" module="BugDetective" ln="24" locRef="11" />
+  <Metric id="METRIC.NOSLIM" itemId="divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="5.0" module="BugDetective" ln="23" locRef="4" />
+  <Metric id="METRIC.NOSLIM" itemId="arrayOutOfBounds.c#clip" item="clip" val="6.0" module="BugDetective" ln="9" locRef="1" />
+  <Metric id="METRIC.CC" itemId="arrayOutOfBounds.c#clip" item="clip" val="3.0" module="BugDetective" ln="9" locRef="1" />
+  <Metric id="METRIC.CC" itemId="arrayOutOfBounds.c#selectPerson" item="selectPerson" val="2.0" module="BugDetective" ln="18" locRef="1" />
+  <Metric id="METRIC.CC" itemId="arrayOutOfBounds.c#clearCache" item="clearCache" val="3.0" module="BugDetective" ln="33" locRef="1" />
+  <Metric id="METRIC.CC" itemId="arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="1.0" module="BugDetective" ln="44" locRef="1" />
+  <Metric id="METRIC.CC" itemId="bufferOverflow.c#fillBuffer" item="fillBuffer" val="1.0" module="BugDetective" ln="9" locRef="2" />
+  <Metric id="METRIC.CC" itemId="bufferOverflow.c#resetBuffer" item="resetBuffer" val="1.0" module="BugDetective" ln="24" locRef="2" />
+  <Metric id="METRIC.CC" itemId="bufferOverflow.c#resetAll" item="resetAll" val="1.0" module="BugDetective" ln="30" locRef="2" />
+  <Metric id="METRIC.CC" itemId="dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="3.0" module="BugDetective" ln="5" locRef="3" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="1.0" module="BugDetective" ln="5" locRef="4" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#createNewPerson" item="createNewPerson" val="2.0" module="BugDetective" ln="12" locRef="4" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="1.0" module="BugDetective" ln="23" locRef="4" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#processStaff" item="processStaff" val="2.0" module="BugDetective" ln="29" locRef="4" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#processFile" item="processFile" val="1.0" module="BugDetective" ln="38" locRef="4" />
+  <Metric id="METRIC.CC" itemId="divisionByZero.c#main" item="main" val="2.0" module="BugDetective" ln="44" locRef="4" />
+  <Metric id="METRIC.CC" itemId="fileLeaks.c#printFile" item="printFile" val="3.0" module="BugDetective" ln="9" locRef="5" />
+  <Metric id="METRIC.CC" itemId="fileLeaks.c#displayFileContent" item="displayFileContent" val="2.0" module="BugDetective" ln="23" locRef="5" />
+  <Metric id="METRIC.CC" itemId="fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="3.0" module="BugDetective" ln="38" locRef="5" />
+  <Metric id="METRIC.CC" itemId="integerOverflow.c#decode" item="decode" val="1.0" module="BugDetective" ln="10" locRef="6" />
+  <Metric id="METRIC.CC" itemId="integerOverflow.c#readMessage" item="readMessage" val="3.0" module="BugDetective" ln="16" locRef="6" />
+  <Metric id="METRIC.CC" itemId="memoryLeaks.c#storePerson" item="storePerson" val="1.0" module="BugDetective" ln="5" locRef="7" />
+  <Metric id="METRIC.CC" itemId="memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="4.0" module="BugDetective" ln="10" locRef="7" />
+  <Metric id="METRIC.CC" itemId="memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="2.0" module="BugDetective" ln="32" locRef="7" />
+  <Metric id="METRIC.CC" itemId="nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="2.0" module="BugDetective" ln="10" locRef="8" />
+  <Metric id="METRIC.CC" itemId="nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="1.0" module="BugDetective" ln="20" locRef="8" />
+  <Metric id="METRIC.CC" itemId="nullPointerDeref.c#createPerson" item="createPerson" val="1.0" module="BugDetective" ln="27" locRef="8" />
+  <Metric id="METRIC.CC" itemId="nullPointerDeref.c#init" item="init" val="1.0" module="BugDetective" ln="36" locRef="8" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#helper1" item="helper1" val="2.0" module="BugDetective" ln="6" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#helper2" item="helper2" val="1.0" module="BugDetective" ln="12" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="3.0" module="BugDetective" ln="16" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="3.0" module="BugDetective" ln="25" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="3.0" module="BugDetective" ln="34" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="3.0" module="BugDetective" ln="44" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="2.0" module="BugDetective" ln="54" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="2.0" module="BugDetective" ln="62" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="2.0" module="BugDetective" ln="68" locRef="9" />
+  <Metric id="METRIC.CC" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="1.0" module="BugDetective" ln="75" locRef="9" />
+  <Metric id="METRIC.CC" itemId="sql.c#SQLExecDirect" item="SQLExecDirect" val="1.0" module="BugDetective" ln="6" locRef="10" />
+  <Metric id="METRIC.CC" itemId="sqlInjection.c#extractUsername" item="extractUsername" val="1.0" module="BugDetective" ln="12" locRef="11" />
+  <Metric id="METRIC.CC" itemId="sqlInjection.c#extractPassword" item="extractPassword" val="1.0" module="BugDetective" ln="18" locRef="11" />
+  <Metric id="METRIC.CC" itemId="sqlInjection.c#handleRequest" item="handleRequest" val="1.0" module="BugDetective" ln="24" locRef="11" />
+  <Metric id="METRIC.CC" itemId="unreachableCode.c#guessFigure" item="guessFigure" val="8.0" module="BugDetective" ln="11" locRef="12" />
+  <Metric id="METRIC.CC" itemId="unreachableCode.c#checkRange" item="checkRange" val="3.0" module="BugDetective" ln="44" locRef="12" />
+  <Metric id="METRIC.CC" itemId="unreachableCode.c#checkSequence" item="checkSequence" val="3.0" module="BugDetective" ln="56" locRef="12" />
+  <Metric id="METRIC.CC" itemId="useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="1.0" module="BugDetective" ln="10" locRef="13" />
+  <Metric id="METRIC.CC" itemId="useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="2.0" module="BugDetective" ln="15" locRef="13" />
+  <Metric id="METRIC.CC" itemId="useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="3.0" module="BugDetective" ln="30" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="arrayOutOfBounds.c#clip" item="clip" val="0.0" module="BugDetective" ln="9" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="arrayOutOfBounds.c#selectPerson" item="selectPerson" val="1.0" module="BugDetective" ln="18" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="arrayOutOfBounds.c#clearCache" item="clearCache" val="2.0" module="BugDetective" ln="33" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="arrayOutOfBounds.c#clearAllCache" item="clearAllCache" val="0.0" module="BugDetective" ln="44" locRef="1" />
+  <Metric id="METRIC.NBD" itemId="bufferOverflow.c#fillBuffer" item="fillBuffer" val="0.0" module="BugDetective" ln="9" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="bufferOverflow.c#resetBuffer" item="resetBuffer" val="0.0" module="BugDetective" ln="24" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="bufferOverflow.c#resetAll" item="resetAll" val="0.0" module="BugDetective" ln="30" locRef="2" />
+  <Metric id="METRIC.NBD" itemId="dbutil.c#retrievePersonFromDB" item="retrievePersonFromDB" val="1.0" module="BugDetective" ln="5" locRef="3" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#displayPersonalInfo" item="displayPersonalInfo" val="0.0" module="BugDetective" ln="5" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#createNewPerson" item="createNewPerson" val="0.0" module="BugDetective" ln="12" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#calculateAverageSalary" item="calculateAverageSalary" val="0.0" module="BugDetective" ln="23" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#processStaff" item="processStaff" val="1.0" module="BugDetective" ln="29" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#processFile" item="processFile" val="0.0" module="BugDetective" ln="38" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="divisionByZero.c#main" item="main" val="1.0" module="BugDetective" ln="44" locRef="4" />
+  <Metric id="METRIC.NBD" itemId="fileLeaks.c#printFile" item="printFile" val="2.0" module="BugDetective" ln="9" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="fileLeaks.c#displayFileContent" item="displayFileContent" val="1.0" module="BugDetective" ln="23" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="fileLeaks.c#displayContentOfSeveralFiles" item="displayContentOfSeveralFiles" val="2.0" module="BugDetective" ln="38" locRef="5" />
+  <Metric id="METRIC.NBD" itemId="integerOverflow.c#decode" item="decode" val="0.0" module="BugDetective" ln="10" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="integerOverflow.c#readMessage" item="readMessage" val="1.0" module="BugDetective" ln="16" locRef="6" />
+  <Metric id="METRIC.NBD" itemId="memoryLeaks.c#storePerson" item="storePerson" val="0.0" module="BugDetective" ln="5" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="memoryLeaks.c#printPersonInfo" item="printPersonInfo" val="2.0" module="BugDetective" ln="10" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="memoryLeaks.c#simpleLeakInCycle" item="simpleLeakInCycle" val="1.0" module="BugDetective" ln="32" locRef="7" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDeref.c#storePersonToFile" item="storePersonToFile" val="1.0" module="BugDetective" ln="10" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDeref.c#copyPersonToFile" item="copyPersonToFile" val="0.0" module="BugDetective" ln="20" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDeref.c#createPerson" item="createPerson" val="0.0" module="BugDetective" ln="27" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDeref.c#init" item="init" val="0.0" module="BugDetective" ln="36" locRef="8" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#helper1" item="helper1" val="0.0" module="BugDetective" ln="6" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#helper2" item="helper2" val="0.0" module="BugDetective" ln="12" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#noFalseViolation1" item="noFalseViolation1" val="0.0" module="BugDetective" ln="16" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#noFalseViolation2" item="noFalseViolation2" val="0.0" module="BugDetective" ln="25" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#noFalseViolation3" item="noFalseViolation3" val="0.0" module="BugDetective" ln="34" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#trueViolation" item="trueViolation" val="0.0" module="BugDetective" ln="44" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation1" item="functionCall_noFalseViolation1" val="0.0" module="BugDetective" ln="54" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#functionCall_noFalseViolation2" item="functionCall_noFalseViolation2" val="0.0" module="BugDetective" ln="62" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation1" item="functionCall_trueViolation1" val="0.0" module="BugDetective" ln="68" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="nullPointerDerefBenchmark.c#functionCall_trueViolation2" item="functionCall_trueViolation2" val="0.0" module="BugDetective" ln="75" locRef="9" />
+  <Metric id="METRIC.NBD" itemId="sql.c#SQLExecDirect" item="SQLExecDirect" val="0.0" module="BugDetective" ln="6" locRef="10" />
+  <Metric id="METRIC.NBD" itemId="sqlInjection.c#extractUsername" item="extractUsername" val="0.0" module="BugDetective" ln="12" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="sqlInjection.c#extractPassword" item="extractPassword" val="0.0" module="BugDetective" ln="18" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="sqlInjection.c#handleRequest" item="handleRequest" val="0.0" module="BugDetective" ln="24" locRef="11" />
+  <Metric id="METRIC.NBD" itemId="unreachableCode.c#guessFigure" item="guessFigure" val="1.0" module="BugDetective" ln="11" locRef="12" />
+  <Metric id="METRIC.NBD" itemId="unreachableCode.c#checkRange" item="checkRange" val="1.0" module="BugDetective" ln="44" locRef="12" />
+  <Metric id="METRIC.NBD" itemId="unreachableCode.c#checkSequence" item="checkSequence" val="1.0" module="BugDetective" ln="56" locRef="12" />
+  <Metric id="METRIC.NBD" itemId="useBeforeInit.c#storePersonToDB" item="storePersonToDB" val="0.0" module="BugDetective" ln="10" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="useBeforeInit.c#writePersonToFile" item="writePersonToFile" val="1.0" module="BugDetective" ln="15" locRef="13" />
+  <Metric id="METRIC.NBD" itemId="useBeforeInit.c#copyPersonFromFileToDB" item="copyPersonFromFileToDB" val="1.0" module="BugDetective" ln="30" locRef="13" />
+</Values></Metrics>

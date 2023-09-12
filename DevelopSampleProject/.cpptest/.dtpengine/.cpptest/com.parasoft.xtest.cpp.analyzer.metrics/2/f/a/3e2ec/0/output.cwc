@@ -1,0 +1,110 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=extractUsername; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>12
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=extractUsername; SIGNATURE=extractUsername; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=12; END_LINE=16; TEMPLATE_FUNC=
+<l>12
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=extractUsername; NBD=0; TEMPLATE_FUNC=
+<l>12
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=extractPassword; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>18
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=extractPassword; SIGNATURE=extractPassword; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=18; END_LINE=22; TEMPLATE_FUNC=
+<l>18
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=extractPassword; NBD=0; TEMPLATE_FUNC=
+<l>18
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=handleRequest; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=handleRequest; SIGNATURE=handleRequest; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=24; END_LINE=36; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=handleRequest; NBD=0; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=SQLExecDirect; SIGNATURE=SQLExecDirect; NAMESPACE=; PARAMNO=3; DEF=false; START_LINE=24; END_LINE=25; TEMPLATE_FUNC=
+<l>24
+<k>11
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SSSSBSBSSSBSSCSSBSSCSSBSSSSBSSSSSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

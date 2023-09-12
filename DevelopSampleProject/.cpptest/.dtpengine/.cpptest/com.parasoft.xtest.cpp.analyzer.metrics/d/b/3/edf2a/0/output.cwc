@@ -1,0 +1,100 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=guessFigure; CC=8; SCC=11; MCC=5; TEMPLATE_FUNC=
+<l>11
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=guessFigure; SIGNATURE=guessFigure; NAMESPACE=; PARAMNO=2; DEF=true; START_LINE=11; END_LINE=42; TEMPLATE_FUNC=
+<l>11
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=guessFigure; NBD=1; TEMPLATE_FUNC=
+<l>11
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=checkRange; CC=3; SCC=5; MCC=3; TEMPLATE_FUNC=
+<l>44
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=checkRange; SIGNATURE=checkRange; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=44; END_LINE=54; TEMPLATE_FUNC=
+<l>44
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=checkRange; NBD=1; TEMPLATE_FUNC=
+<l>44
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=checkSequence; CC=3; SCC=3; MCC=3; TEMPLATE_FUNC=
+<l>56
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=checkSequence; SIGNATURE=checkSequence; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=56; END_LINE=67; TEMPLATE_FUNC=
+<l>56
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=checkSequence; NBD=1; TEMPLATE_FUNC=
+<l>56
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SBSSSSSSSBSSSSSSSSSSSSBSSSSCSSSSSSSSSSSSSSBSSSSSSCSCSSBSSSSSSCSSSSSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

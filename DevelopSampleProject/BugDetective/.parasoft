@@ -1,0 +1,9 @@
+#Tue Sep 12 00:31:56 GMT 2023
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.linux.x86=gcc
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.linux.x86=gcc_11-64
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.linux.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=options_dir_extractor_id
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.linker.options.linux.x86=${cpptest\:original_options}
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=never
+/BugDetective//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf
+project.path=/BugDetective

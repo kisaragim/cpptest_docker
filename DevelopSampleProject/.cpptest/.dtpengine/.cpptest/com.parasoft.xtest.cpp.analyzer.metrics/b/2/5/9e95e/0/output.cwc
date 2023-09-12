@@ -1,0 +1,100 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=fillBuffer; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=fillBuffer; SIGNATURE=fillBuffer; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=9; END_LINE=22; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=fillBuffer; NBD=0; TEMPLATE_FUNC=
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=resetBuffer; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=resetBuffer; SIGNATURE=resetBuffer; NAMESPACE=; PARAMNO=1; DEF=true; START_LINE=24; END_LINE=28; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=resetBuffer; NBD=0; TEMPLATE_FUNC=
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-CC
+<b>FUNC=resetAll; CC=1; SCC=1; MCC=1; TEMPLATE_FUNC=
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-FUNCTIONS2
+<b>FUNC=resetAll; SIGNATURE=resetAll; NAMESPACE=; PARAMNO=0; DEF=true; START_LINE=30; END_LINE=34; TEMPLATE_FUNC=
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-NBD
+<b>FUNC=resetAll; NBD=0; TEMPLATE_FUNC=
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>INTERNAL-METRICS-LINES_TYPES
+<b>DATA=SSSBSBSBSSSSSBCCCCCBMSBSSSSSBSSCMSB
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
