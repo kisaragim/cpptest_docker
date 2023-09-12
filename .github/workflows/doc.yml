@@ -57,7 +57,7 @@ jobs:
       with:
         installDir: '/opt/app/parasoft/cpptest/'
         compilerConfig: 'gcc_11-64'
-        testConfig: 'builtin://Recommended Rules'
+        testConfig: 'builtin://MISRA C 2012'
         reportFormat: xml,html,sarif
         input: '/home/keio/actions-runner/develop_runner/cpptest_docker/cpptest_docker/DevelopSampleProject/BugDetective/cpptestscan.bdf'
         reportDir: '/home/keio/cpptest_git/cpptest_docker/sagyou/reports'
