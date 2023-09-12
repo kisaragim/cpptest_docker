@@ -1,0 +1,360 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>CODSTA-115
+<b>Consider hiding the implementation of the structure 'Person' in a translation unit 'arrayOutOfBounds.c'
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-118
+<b>Prototype of function 'clip' does not precede function definition
+<l>9
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-118
+<b>Prototype of function 'selectPerson' does not precede function definition
+<l>18
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-118
+<b>Prototype of function 'clearCache' does not precede function definition
+<l>33
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-118
+<b>Prototype of function 'clearAllCache' does not precede function definition
+<l>44
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-118
+<b>Declaration of object 'cache' does not precede its definition
+<l>7
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-20_4
+<b>'free' function should not be used
+<l>38
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-5_3_a
+<b>Typedef names shall not be reused: Person
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>NAMING-50
+<b>The names of the identifiers 'h' and 'n' (line: 9 in the 'arrayOutOfBounds.c' file) differ only in the interchange of the similar characters
+<l>9
+<k>28
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-CPP-63
+<b>Expression of pointer type is compared with '0'
+<l>27
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-CPP-63
+<b>Expression of pointer type is compared with '0'
+<l>37
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-CPP-63
+<b>'0' is assigned to expression of pointer type
+<l>39
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-110
+<b>Usage of 'scanf' function is not allowed
+<l>22
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-131
+<b>Expression of pointer type is compared with '0'
+<l>27
+<k>22
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-131
+<b>Expression of pointer type is compared with '0'
+<l>37
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-131
+<b>'0' is assigned to expression of pointer type
+<l>39
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-159
+<b>Function 'selectPerson' is not in prototype form
+<l>18
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-159
+<b>Function 'clearAllCache' is not in prototype form
+<l>44
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>CODSTA-122_a
+<b>Unused function's "scanf" return value
+<l>22
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>PFO-02
+<b>Multiple include guard should appear as first #ifndef or #if preprocessor directive
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-2_4
+<b>Section of code should not be 'commented out'
+<l>24
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>10
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>24
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>14
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>33
+<k>17
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>33
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>35
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>3
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>5
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>6
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>9
+<k>30
+<s>false
+<N>
+<f>
+<L>0

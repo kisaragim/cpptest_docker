@@ -1,0 +1,350 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>CODSTA-115
+<b>Consider hiding the implementation of the structure 'Person' in a translation unit 'fileLeaks.c'
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-118
+<b>Prototype of function 'printFile' does not precede function definition
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-118
+<b>Prototype of function 'displayFileContent' does not precede function definition
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-118
+<b>Prototype of function 'displayContentOfSeveralFiles' does not precede function definition
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially signed' type is assigned to an object with the 'essentially character' type
+<l>14
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>MISRA2004-5_3_a
+<b>Typedef names shall not be reused: Person
+<l>1
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'fgetc' function is not allowed
+<l>14
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>16
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'fopen' function is not allowed
+<l>26
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>28
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>31
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'fopen' function is not allowed
+<l>49
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>51
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-110
+<b>Usage of 'fclose' function is not allowed
+<l>57
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-159
+<b>Function 'displayFileContent' is not in prototype form
+<l>23
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-159
+<b>Function 'displayContentOfSeveralFiles' is not in prototype form
+<l>38
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-164_a
+<b>Operands of the '!=' operator have different essential types: 'char' and 'signed char'
+<l>15
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>PB-27
+<b>String literal is assigned to pointer to non-const object: names
+<l>41
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>16
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>28
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>31
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'displayFileContent' function
+<l>29
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'displayFileContent' function
+<l>35
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>51
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>CODSTA-122_a
+<b>Unused function's "fclose" return value
+<l>57
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'displayContentOfSeveralFiles' function
+<l>52
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'displayContentOfSeveralFiles' function
+<l>58
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/dbutil.h
+<c>PFO-02
+<b>Multiple include guard should appear as first #ifndef or #if preprocessor directive
+<l>1
+<k>-1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-2_4
+<b>Section of code should not be 'commented out'
+<l>33
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>23
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>38
+<k>1
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>40
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/fileLeaks.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>46
+<k>5
+<s>false
+<N>
+<f>
+<L>0

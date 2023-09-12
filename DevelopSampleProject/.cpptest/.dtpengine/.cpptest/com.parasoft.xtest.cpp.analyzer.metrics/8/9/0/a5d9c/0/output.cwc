@@ -141,7 +141,7 @@
 <->
 <F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/arrayOutOfBounds.c
 <c>INTERNAL-METRICS-LINES_TYPES
-<b>DATA=SSSBSBSBSSCSBSSSBSSSSSBCCBSSSSSBSSSSSSSSSSBSSMSB
+<b>DATA=SSSBSBSBSSCCBSSSBSSSSSBCCBSSSSSBSSSSSSSSSSBSSMSB
 <l>1
 <k>-1
 <s>false

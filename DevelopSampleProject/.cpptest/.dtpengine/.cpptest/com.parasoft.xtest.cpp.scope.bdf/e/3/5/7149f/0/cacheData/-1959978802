@@ -1,0 +1,7 @@
+file=/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/useBeforeInit.c
+compiler=gcc_11-64
+working_dir=/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective
+arg=gcc
+arg=-I/opt/app/parasoft/cpptest/bin/engine/runtime/include
+arg=-DPARASOFT_CPPTEST
+arg=/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/useBeforeInit.c

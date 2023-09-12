@@ -1,0 +1,420 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type is assigned to an object with the 'essentially signed' type
+<l>15
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type is assigned to an object with the 'essentially signed' type
+<l>17
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type is assigned to an object with the 'essentially signed' type
+<l>19
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type is assigned to an object with the 'essentially signed' type
+<l>21
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type in a switch statement's case label is converted to the 'essentially signed' type
+<l>25
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type in a switch statement's case label is converted to the 'essentially signed' type
+<l>35
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type in a switch statement's case label is converted to the 'essentially signed' type
+<l>32
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-163_b
+<b>The expression of the 'essentially Enum' type in a switch statement's case label is converted to the 'essentially signed' type
+<l>29
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>26
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>39
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>36
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>33
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>30
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>47
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>59
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>64
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The operand of the logical negation operator '!' should have essentially Boolean type
+<l>16
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The operand of the logical negation operator '!' should have essentially Boolean type
+<l>18
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The left hand operand of the logical operator '&&' should have essentially Boolean type
+<l>14
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The left hand operand of the logical operator '&&' should have essentially Boolean type
+<l>16
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The right hand operand of the logical operator '&&' should have essentially Boolean type
+<l>14
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-161_a
+<b>The right hand operand of the logical operator '&&' should have essentially Boolean type
+<l>18
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-176_b
+<b>An unused tag declaration 'Figures' has been found
+<l>3
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-12_5
+<b>The operands of a logical '&&' in function 'guessFigure' should be parenthesized
+<l>16
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-12_5
+<b>The operands of a logical '&&' in function 'guessFigure' should be parenthesized
+<l>18
+<k>16
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>26
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>39
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>36
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>33
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>30
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-20_2_b
+<b>Reserved name 'round' used
+<l>11
+<k>29
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>47
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-14_7
+<b>'return' statement should be at the end of the 'checkRange' function
+<l>48
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-16_7
+<b>Pass parameter "cur" with const specifier
+<l>44
+<k>30
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>59
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>64
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'checkSequence' function
+<l>60
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-14_7
+<b>Provide only one exit point in 'checkSequence' function
+<l>65
+<k>3
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-16_7
+<b>Pass parameter "cur" with const specifier
+<l>56
+<k>32
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>11
+<k>25
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>11
+<k>36
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/unreachableCode.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0

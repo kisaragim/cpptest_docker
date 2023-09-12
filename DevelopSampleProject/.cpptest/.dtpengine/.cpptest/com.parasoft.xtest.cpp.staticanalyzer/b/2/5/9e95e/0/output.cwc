@@ -1,0 +1,180 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-118
+<b>Prototype of function 'fillBuffer' does not precede function definition
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-118
+<b>Prototype of function 'resetBuffer' does not precede function definition
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-118
+<b>Prototype of function 'resetAll' does not precede function definition
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-118
+<b>Declaration of object 'buffer' does not precede its definition
+<l>7
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-163_b
+<b>The argument number '3' ('essentially signed' type) is passed to the function 'memset' as a parameter with the 'essentially unsigned' type
+<l>21
+<k>31
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-163_b
+<b>The argument number '3' ('essentially signed' type) is passed to the function 'memset' as a parameter with the 'essentially unsigned' type
+<l>27
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-110
+<b>Usage of 'printf' function is not allowed
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-110
+<b>Usage of 'scanf' function is not allowed
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-159
+<b>Function 'fillBuffer' is not in prototype form
+<l>9
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-159
+<b>Function 'resetAll' is not in prototype form
+<l>30
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-122_a
+<b>Unused function's "printf" return value
+<l>12
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-122_a
+<b>Unused function's "scanf" return value
+<l>13
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-122_a
+<b>Unused function's "memset" return value
+<l>21
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>CODSTA-122_a
+<b>Unused function's "memset" return value
+<l>27
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>MISRA2004-2_4
+<b>Section of code should not be 'commented out'
+<l>15
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>11
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>24
+<k>18
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/bufferOverflow.c
+<c>MISRA2004-6_3_b
+<b>The basic numerical type 'int' should not be used
+<l>26
+<k>5
+<s>false
+<N>
+<f>
+<L>0

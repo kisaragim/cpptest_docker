@@ -1,0 +1,110 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.c
+<c>MISRA2004-16_7
+<b>Pass parameter "StatementText" with const specifier
+<l>7
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.c
+<c>OPT-38
+<b>Parameter 'StatementHandle' is not used in function 'SQLExecDirect'
+<l>6
+<k>34
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.c
+<c>OPT-38
+<b>Parameter 'StatementText' is not used in function 'SQLExecDirect'
+<l>7
+<k>21
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.c
+<c>OPT-38
+<b>Parameter 'TextLength' is not used in function 'SQLExecDirect'
+<l>7
+<k>47
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLCHAR'
+<l>11
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLCHAR' does not contain any digits indicating the size
+<l>11
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLINTEGER'
+<l>12
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLINTEGER' does not contain any digits indicating the size
+<l>12
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLSMALLINT'
+<l>20
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLSMALLINT' does not contain any digits indicating the size
+<l>20
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-20_1_a
+<b>Do not use reserved identifiers : _BUGDETECTIVE_SQL_H_
+<l>3
+<k>-1
+<s>false
+<N>
+<f>
+<L>0

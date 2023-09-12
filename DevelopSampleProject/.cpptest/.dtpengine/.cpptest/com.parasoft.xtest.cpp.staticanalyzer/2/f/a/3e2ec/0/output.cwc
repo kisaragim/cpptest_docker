@@ -1,0 +1,210 @@
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Prototype of function 'extractUsername' does not precede function definition
+<l>12
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Prototype of function 'extractPassword' does not precede function definition
+<l>18
+<k>7
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Prototype of function 'handleRequest' does not precede function definition
+<l>24
+<k>6
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Declaration of object 'requestBeginning' does not precede its definition
+<l>8
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Declaration of object 'requestPassword' does not precede its definition
+<l>9
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-118
+<b>Declaration of object 'requestEnding' does not precede its definition
+<l>10
+<k>13
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-163_b
+<b>The argument number '3' ('essentially unsigned' type) is passed to the function 'SQLExecDirect' as a parameter with the 'essentially signed' type
+<l>35
+<k>56
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-110
+<b>Usage of 'fread' function is not allowed
+<l>29
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "fread" return value
+<l>29
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "strcpy" return value
+<l>30
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "strcat" return value
+<l>31
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "strcat" return value
+<l>32
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "strcat" return value
+<l>33
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "strcat" return value
+<l>34
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sqlInjection.c
+<c>CODSTA-122_a
+<b>Unused function's "SQLExecDirect" return value
+<l>35
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLCHAR'
+<l>11
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLCHAR' does not contain any digits indicating the size
+<l>11
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLINTEGER'
+<l>12
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLINTEGER' does not contain any digits indicating the size
+<l>12
+<k>14
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>CODSTA-155
+<b>Use type from stdint.h instead of declaring your own type 'SQLSMALLINT'
+<l>20
+<k>15
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>/home/keio/cpptest_git/cpptest_docker/sagyou/cpptest_docker/DevelopSampleProject/BugDetective/sql.h
+<c>MISRA2004-6_3
+<b>Typedef name 'SQLSMALLINT' does not contain any digits indicating the size
+<l>20
+<k>15
+<s>false
+<N>
+<f>
+<L>0
